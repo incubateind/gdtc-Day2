@@ -223,6 +223,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  text-align: center;
+  top: 400px;
 }
 
 #hero h1 {
@@ -270,7 +272,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   /* Ugly Padding */
-  padding: 0 0;
+
+  padding: 50px;
   overflow: hidden;
 }
 
@@ -280,10 +283,12 @@ section {
 
 .section-title {
   /* Give Me Padding */
+  padding: 25px; 
 }
 
 .section-title p{
   /* Do something with me too */
+
   margin-bottom: 0;
 }
 
@@ -345,21 +350,27 @@ section {
 # Facts
 --------------------------------------------------------------*/
 .facts {
-  padding-bottom: 30px;
+  margin-left: 0 ;
 }
 
 .facts .count-box {
   /* Ugly Padding */
-  padding: 0;
-  width: 100%;
+  margin-left: 50px;
+  padding: 50px;
+  width: 150%;
+  padding-left: 10px;
+  padding-right: 25px;
 }
 
 .facts .count-box i {
   display: block;
   /* Ugly Font Size */
-  font-size: 500px;
+  font-size: 80px;
   color: #149ddd;
   float: left;
+  margin-left: -15%;
+  /*padding-left: 75px; */
+
 }
 
 .facts .count-box span {
@@ -373,7 +384,7 @@ section {
 
 .facts .count-box p {
   padding: 15px 0 0 0;
-  margin: 0 0 0 60px;
+  margin: 0 0 10px 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   color: #122f57;
