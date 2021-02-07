@@ -350,14 +350,14 @@ section {
 
 .facts .count-box {
   /* Ugly Padding */
-  padding: 0;
-  width: 100%;
+  padding: 10;
+  width: 90%;
 }
 
 .facts .count-box i {
   display: block;
   /* Ugly Font Size */
-  font-size: 500px;
+  font-size:40px;
   color: #149ddd;
   float: left;
 }
