@@ -222,14 +222,17 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-container {
   position: relative;
   z-index: 2;
+  justify-content: center;
+  /* align-items: center; */
   min-width: 300px;
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 200px 0 10px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
+  text-align: center;
   color: #fff;
 }
 
@@ -237,6 +240,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
+  text-align: center;
   font-family: "Poppins", sans-serif;
 }
 
@@ -244,6 +248,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
+  text-align: center;
   border-bottom: 3px solid #149ddd;
 }
 
@@ -269,9 +274,10 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  /* Ugly Padding */
-  padding: 0 0;
+  padding: 50px;
   overflow: hidden;
+  align-content: center;
+  /* text-align: center; */
 }
 
 .section-bg {
@@ -279,12 +285,11 @@ section {
 }
 
 .section-title {
-  /* Give Me Padding */
+   padding:  0px;
 }
 
 .section-title p{
-  /* Do something with me too */
-  margin-bottom: 0;
+  margin-bottom: 50px;
 }
 
 .section-title h2 {
@@ -323,7 +328,6 @@ section {
 .about .content ul {
   list-style: none;
   padding: 0;
-  /* REMOVE MY MARGIN */
   margin-bottom: 0;
 }
 
@@ -349,15 +353,15 @@ section {
 }
 
 .facts .count-box {
-  /* Ugly Padding */
-  padding: 0;
+ 
+  padding: 50px;
   width: 100%;
 }
 
 .facts .count-box i {
   display: block;
-  /* Ugly Font Size */
-  font-size: 500px;
+ 
+  font-size: 50px;
   color: #149ddd;
   float: left;
 }
