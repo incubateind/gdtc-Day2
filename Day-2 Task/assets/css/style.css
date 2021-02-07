@@ -220,9 +220,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
+  padding: 300px 0;
   position: relative;
   z-index: 2;
   min-width: 300px;
+  text-align: center;
 }
 
 #hero h1 {
@@ -276,15 +278,19 @@ section {
 
 .section-bg {
   background: #f5f8fd;
+
 }
 
 .section-title {
   /* Give Me Padding */
+  margin-top:50px;
+
+
 }
 
 .section-title p{
   /* Do something with me too */
-  margin-bottom: 0;
+  margin-bottom: 50px;
 }
 
 .section-title h2 {
@@ -308,7 +314,7 @@ section {
 }
 
 .section-title p {
-  margin-bottom: 0;
+  margin-bottom: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -350,13 +356,13 @@ section {
 
 .facts .count-box {
   /* Ugly Padding */
-  padding: 0;
+  padding: 50px;
   width: 100%;
 }
 
 .facts .count-box i {
   display: block;
-  /* Ugly Font Size */
+
   font-size: 500px;
   color: #149ddd;
   float: left;
