@@ -1,6 +1,3 @@
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -269,8 +266,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  /* Ugly Padding */
-  padding: 0 0;
+  padding: 60px 0;
   overflow: hidden;
 }
 
@@ -279,12 +275,7 @@ section {
 }
 
 .section-title {
-  /* Give Me Padding */
-}
-
-.section-title p{
-  /* Do something with me too */
-  margin-bottom: 0;
+  padding-bottom: 30px;
 }
 
 .section-title h2 {
@@ -323,8 +314,6 @@ section {
 .about .content ul {
   list-style: none;
   padding: 0;
-  /* REMOVE MY MARGIN */
-  margin-bottom: 0;
 }
 
 .about .content ul li {
@@ -349,15 +338,13 @@ section {
 }
 
 .facts .count-box {
-  /* Ugly Padding */
-  padding: 0;
+  padding: 30px;
   width: 100%;
 }
 
 .facts .count-box i {
   display: block;
-  /* Ugly Font Size */
-  font-size: 500px;
+  font-size: 44px;
   color: #149ddd;
   float: left;
 }
@@ -835,13 +822,9 @@ section {
   display: none;
   color: #fff;
   background: #ed3c0d;
-  text-align: left;
+  text-align: center;
   padding: 15px;
   font-weight: 600;
-}
-
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
 }
 
 .contact .php-email-form .sent-message {
@@ -922,8 +905,7 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 20px 0;
-  background: #f9f9f9;
+  padding: 40px 0;
 }
 
 .breadcrumbs h2 {
@@ -967,7 +949,7 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 40px;
+  padding-top: 0;
 }
 
 .portfolio-details .portfolio-details-container {
