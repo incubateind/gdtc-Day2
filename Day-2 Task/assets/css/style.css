@@ -221,8 +221,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .hero-container {
   position: relative;
-  z-index: 2;
-  min-width: 300px;
+    z-index: 2;
+    min-width: 300px;
+    padding: 300px;
+    text-align: center;
 }
 
 #hero h1 {
@@ -269,8 +271,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  /* Ugly Padding */
-  padding: 0 0;
+  padding: 3px 20px;
   overflow: hidden;
 }
 
@@ -279,12 +280,11 @@ section {
 }
 
 .section-title {
-  /* Give Me Padding */
+  padding: 30px 0px;
 }
 
 .section-title p{
-  /* Do something with me too */
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .section-title h2 {
@@ -322,9 +322,7 @@ section {
 
 .about .content ul {
   list-style: none;
-  padding: 0;
-  /* REMOVE MY MARGIN */
-  margin-bottom: 0;
+  padding: 3px 20px;
 }
 
 .about .content ul li {
@@ -350,14 +348,14 @@ section {
 
 .facts .count-box {
   /* Ugly Padding */
-  padding: 0;
+  padding: 50px;
   width: 100%;
 }
 
 .facts .count-box i {
   display: block;
   /* Ugly Font Size */
-  font-size: 500px;
+  font-size: 45px;
   color: #149ddd;
   float: left;
 }
@@ -538,10 +536,6 @@ section {
   content: "";
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
