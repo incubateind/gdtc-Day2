@@ -110,7 +110,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main {
-  margin-left: 300px;
+  
+  background-color: #D3D3D3;
 }
 
 @media (max-width: 1199px) {
@@ -223,6 +224,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  text-align: center;
+  padding: 250px 0;
 }
 
 #hero h1 {
@@ -270,16 +273,17 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   /* Ugly Padding */
-  padding: 0 0;
+  padding: 50px 0;
   overflow: hidden;
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #b4b6ba;
 }
 
 .section-title {
   /* Give Me Padding */
+  padding: 40px 0 40px 0;
 }
 
 .section-title p{
@@ -357,7 +361,7 @@ section {
 .facts .count-box i {
   display: block;
   /* Ugly Font Size */
-  font-size: 500px;
+  font-size: 45px;
   color: #149ddd;
   float: left;
 }
