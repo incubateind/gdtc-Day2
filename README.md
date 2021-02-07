@@ -21,6 +21,6 @@ The target for today is that we will learn to raise **issues**
 
 ##### Pratik our Frontend Developer was trying to come up with a portfolio which was to look like the below image and somehow he messed up, now he requires all your help to make the portfolio as intended. Once you are done with rectification generate the PR on this repository, or else RAISE ISSUE mentioning us and we will interact over on ISSUES chat of GitHub.
 
-## Lets utilize Version COntrolling and Collaborative Development to its fullest!!!!
+## Lets utilize Version Controlling and Collaborative Development to its fullest!!!!     You can mention any of the mentors in your ISSUE for help @kroy96 @rexyagami @Hegdesachin87 @ch-amul @piyushagarwal08
 
 ![](https://storage.googleapis.com/incind/Day-2sAnqwXm)
