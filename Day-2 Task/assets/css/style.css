@@ -206,6 +206,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
+  position: relative;
 }
 
 #hero:before {
@@ -220,16 +221,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  position: relative;
+  position: absolute;
   z-index: 2;
+  justify-content: center;
+  /* alignment=center; */
   min-width: 300px;
+  margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 200px 0 10px 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
+  text-align: center;
   color: #fff;
 }
 
@@ -237,6 +247,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
+  text-align: center;
   font-family: "Poppins", sans-serif;
 }
 
@@ -244,6 +255,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
+  text-align: center;
   border-bottom: 3px solid #149ddd;
 }
 
@@ -270,8 +282,9 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   /* Ugly Padding */
-  padding: 0 0;
+  padding: 20px 10px;
   overflow: hidden;
+  align-content: center;
 }
 
 .section-bg {
@@ -280,11 +293,13 @@ section {
 
 .section-title {
   /* Give Me Padding */
+  padding: 20px;
 }
 
 .section-title p{
   /* Do something with me too */
   margin-bottom: 0;
+  line-height: 2;
 }
 
 .section-title h2 {
@@ -324,7 +339,7 @@ section {
   list-style: none;
   padding: 0;
   /* REMOVE MY MARGIN */
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .about .content ul li {
@@ -350,16 +365,18 @@ section {
 
 .facts .count-box {
   /* Ugly Padding */
-  padding: 0;
+  padding: 50px;
   width: 100%;
 }
 
 .facts .count-box i {
   display: block;
   /* Ugly Font Size */
-  font-size: 500px;
+  font-size: 50px;
   color: #149ddd;
   float: left;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 .facts .count-box span {
@@ -391,6 +408,35 @@ section {
 
 .facts .count-box a:hover {
   color: #1f5297;
+}
+.facts .icon-box {
+  margin-bottom: 20px;
+}
+
+.facts .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #149ddd;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #149ddd;
+}
+
+.facts .icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+.facts .icon-box:hover .icon {
+  background: #fff;
+}
+
+.facts .icon-box:hover .icon i {
+  color: #149ddd;
 }
 
 /*--------------------------------------------------------------
@@ -424,7 +470,7 @@ section {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: .9s;
+  transition: 0.9s;
   background-color: #149ddd;
 }
 
