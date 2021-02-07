@@ -226,15 +226,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 250px 280px 0px 400px;
   font-size: 64px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 80px;
   color: #fff;
 }
 
 #hero p {
   color: #fff;
+  margin-left: 400px;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
@@ -357,7 +358,7 @@ section {
 .facts .count-box i {
   display: block;
   /* Ugly Font Size */
-  font-size: 500px;
+  font-size: 40px;
   color: #149ddd;
   float: left;
 }
@@ -375,7 +376,7 @@ section {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   color: #122f57;
 }
 
@@ -384,7 +385,7 @@ section {
   display: block;
   margin-top: 20px;
   color: #122f57;
-  font-size: 15px;
+  font-size: 25px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
