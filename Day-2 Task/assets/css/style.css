@@ -113,6 +113,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 300px;
 }
 
+
+
 @media (max-width: 1199px) {
   #header {
     left: -300px;
@@ -126,6 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
+
 .nav-menu {
   padding-top: 30px;
 }
@@ -204,6 +207,9 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
 }
@@ -251,6 +257,11 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     background-attachment: fixed;
   }
+
+.row{
+  margin-left: 28px;
+}
+
 }
 
 @media (max-width: 768px) {
@@ -270,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   /* Ugly Padding */
-  padding: 0 0;
+  padding: 50px 0;
   overflow: hidden;
 }
 
@@ -280,11 +291,13 @@ section {
 
 .section-title {
   /* Give Me Padding */
+  padding: 36px;
 }
 
 .section-title p{
   /* Do something with me too */
   margin-bottom: 0;
+  text-align: left;
 }
 
 .section-title h2 {
@@ -324,7 +337,7 @@ section {
   list-style: none;
   padding: 0;
   /* REMOVE MY MARGIN */
-  margin-bottom: 0;
+  
 }
 
 .about .content ul li {
@@ -350,14 +363,14 @@ section {
 
 .facts .count-box {
   /* Ugly Padding */
-  padding: 0;
+  padding: 36px;
   width: 100%;
 }
 
 .facts .count-box i {
   display: block;
   /* Ugly Font Size */
-  font-size: 500px;
+  font-size: 50px;
   color: #149ddd;
   float: left;
 }
@@ -394,7 +407,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
