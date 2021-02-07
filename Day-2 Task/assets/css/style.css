@@ -357,7 +357,7 @@ section {
 .facts .count-box i {
   display: block;
   /* Ugly Font Size */
-  font-size: 500px;
+  font-size: 50px;
   color: #149ddd;
   float: left;
 }
