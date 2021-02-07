@@ -223,7 +223,15 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
+
+
 
 #hero h1 {
   margin: 0 0 10px 0;
@@ -392,7 +400,35 @@ section {
 .facts .count-box a:hover {
   color: #1f5297;
 }
+.facts .icon-box {
+  margin-bottom: 20px;
+}
 
+.facts .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #149ddd;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #149ddd;
+}
+
+.facts .icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+.facts .icon-box:hover .icon {
+  background: #fff;
+}
+
+.facts .icon-box:hover .icon i {
+  color: #149ddd;
+}
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
