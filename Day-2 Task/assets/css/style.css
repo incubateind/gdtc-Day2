@@ -220,9 +220,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  position: relative;
+  position: absolute;
   z-index: 2;
   min-width: 300px;
+  top: 7cm;
+  right: 11cm;
 }
 
 #hero h1 {
@@ -357,7 +359,7 @@ section {
 .facts .count-box i {
   display: block;
   /* Ugly Font Size */
-  font-size: 500px;
+  font-size: 50px;
   color: #149ddd;
   float: left;
 }
