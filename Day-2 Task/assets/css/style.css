@@ -18,7 +18,10 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
-
+.hero-container{
+  margin-top: 20%;
+  text-align: center;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -270,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   /* Ugly Padding */
-  padding: 0 0;
+  padding: 56 0;
   overflow: hidden;
 }
 
@@ -280,11 +283,13 @@ section {
 
 .section-title {
   /* Give Me Padding */
+  padding: 10px;
+  
 }
 
 .section-title p{
   /* Do something with me too */
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 .section-title h2 {
@@ -309,6 +314,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  
 }
 
 /*--------------------------------------------------------------
@@ -324,7 +330,7 @@ section {
   list-style: none;
   padding: 0;
   /* REMOVE MY MARGIN */
-  margin-bottom: 0;
+  
 }
 
 .about .content ul li {
@@ -350,14 +356,13 @@ section {
 
 .facts .count-box {
   /* Ugly Padding */
-  padding: 0;
+  padding: 36px;
   width: 100%;
 }
 
 .facts .count-box i {
   display: block;
-  /* Ugly Font Size */
-  font-size: 500px;
+  font-size: 50px;
   color: #149ddd;
   float: left;
 }
@@ -424,7 +429,7 @@ section {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: .9s;
+  transition: 0.9s;
   background-color: #149ddd;
 }
 
