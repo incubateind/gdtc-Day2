@@ -264,13 +264,18 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
 }
+.img-fluid
+{
+  padding-top: 30px;
+}
+
 
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
   /* Ugly Padding */
-  padding: 0 0;
+  padding-top: 50px;
   overflow: hidden;
 }
 
@@ -284,7 +289,7 @@ section {
 
 .section-title p{
   /* Do something with me too */
-  margin-bottom: 0;
+  padding-bottom: 30px;
 }
 
 .section-title h2 {
@@ -345,7 +350,8 @@ section {
 # Facts
 --------------------------------------------------------------*/
 .facts {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
+  margin-top: 50px
 }
 
 .facts .count-box {
@@ -368,12 +374,12 @@ section {
   display: block;
   font-weight: 700;
   color: #050d18;
-  margin-left: 60px;
+  margin-left: 110px;
 }
 
 .facts .count-box p {
   padding: 15px 0 0 0;
-  margin: 0 0 0 60px;
+  margin: 0 0 0 110px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   color: #122f57;
