@@ -1,6 +1,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.first_name{
+  display: flex;
+  justify-content: center;
+  top:40%;
+  align-items:flex-end;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
