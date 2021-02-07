@@ -18,7 +18,16 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
+.hero-container {
+  text-align: center; top: 50%;
+}
 
+.section-title {
+  margin-top: 60px;
+}
+.row {
+  margin-top: 30px;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -218,7 +227,26 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   z-index: 1;
 }
+#about , #facts , #skills , #services, #contact{
+  
+  background: rgba(5, 13, 24, 0.15);
+ 
+}
 
+#overlay {
+  
+  display: none;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
 #hero .hero-container {
   position: relative;
   z-index: 2;
