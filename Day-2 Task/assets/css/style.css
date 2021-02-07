@@ -223,6 +223,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  top:300px;
+  left:550px;
 }
 
 #hero h1 {
@@ -357,9 +359,10 @@ section {
 .facts .count-box i {
   display: block;
   /* Ugly Font Size */
-  font-size: 500px;
+  font-size: 60px;
   color: #149ddd;
   float: left;
+
 }
 
 .facts .count-box span {
