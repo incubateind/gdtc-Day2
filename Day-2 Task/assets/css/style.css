@@ -206,6 +206,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #hero:before {
@@ -280,11 +283,13 @@ section {
 
 .section-title {
   /* Give Me Padding */
+  padding-top: 5%;
 }
 
 .section-title p{
   /* Do something with me too */
-  margin-bottom: 0;
+  margin-bottom:0;
+  
 }
 
 .section-title h2 {
@@ -308,7 +313,7 @@ section {
 }
 
 .section-title p {
-  margin-bottom: 0;
+  margin-bottom: 3%;
 }
 
 /*--------------------------------------------------------------
@@ -324,7 +329,7 @@ section {
   list-style: none;
   padding: 0;
   /* REMOVE MY MARGIN */
-  margin-bottom: 0;
+  
 }
 
 .about .content ul li {
@@ -338,7 +343,7 @@ section {
 }
 
 .about .content p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 7%;
 }
 
 /*--------------------------------------------------------------
@@ -350,14 +355,14 @@ section {
 
 .facts .count-box {
   /* Ugly Padding */
-  padding: 0;
+  padding: 10%;
   width: 100%;
 }
 
 .facts .count-box i {
   display: block;
   /* Ugly Font Size */
-  font-size: 500px;
+  font-size: 50px;
   color: #149ddd;
   float: left;
 }
@@ -394,8 +399,11 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
+#skills {
+  padding-bottom: 5%;
+}
 .skills .progress {
   height: 50px;
   display: block;
@@ -741,6 +749,7 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
+ padding-top: 3%;
 }
 
 .contact .info {
