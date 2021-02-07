@@ -226,8 +226,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 64px;
+  margin: 200px 40px 0px 300px;
+  font-size: 54px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero p {
   color: #fff;
-  margin-bottom: 50px;
+  margin: 0px 300px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
@@ -257,6 +257,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    padding: 100px;
   }
   #hero h2 {
     font-size: 18px;
@@ -270,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   /* Ugly Padding */
-  padding: 0 0;
+
   overflow: hidden;
 }
 
@@ -280,10 +281,12 @@ section {
 
 .section-title {
   /* Give Me Padding */
+  padding: 80px;
 }
 
 .section-title p{
   /* Do something with me too */
+  padding-bottom: 10px;
   margin-bottom: 0;
 }
 
@@ -324,7 +327,7 @@ section {
   list-style: none;
   padding: 0;
   /* REMOVE MY MARGIN */
-  margin-bottom: 0;
+  /*margin-bottom: 0;*/
 }
 
 .about .content ul li {
@@ -350,14 +353,14 @@ section {
 
 .facts .count-box {
   /* Ugly Padding */
-  padding: 0;
+  padding: 20px;
   width: 100%;
 }
 
 .facts .count-box i {
   display: block;
   /* Ugly Font Size */
-  font-size: 500px;
+  font-size: 50px;
   color: #149ddd;
   float: left;
 }
@@ -394,7 +397,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
@@ -419,6 +422,7 @@ section {
 
 .skills .progress-bar-wrap {
   background: #dce8f8;
+  
 }
 
 .skills .progress-bar {
