@@ -270,7 +270,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   /* Ugly Padding */
-  padding: 0 0;
+  padding: auto;
   overflow: hidden;
 }
 
@@ -280,11 +280,12 @@ section {
 
 .section-title {
   /* Give Me Padding */
+  padding: auto;
 }
 
 .section-title p{
   /* Do something with me too */
-  margin-bottom: 0;
+  margin-bottom: 10;
 }
 
 .section-title h2 {
@@ -308,7 +309,7 @@ section {
 }
 
 .section-title p {
-  margin-bottom: 0;
+  margin-bottom: auto;
 }
 
 /*--------------------------------------------------------------
@@ -324,7 +325,6 @@ section {
   list-style: none;
   padding: 0;
   /* REMOVE MY MARGIN */
-  margin-bottom: 0;
 }
 
 .about .content ul li {
@@ -350,14 +350,15 @@ section {
 
 .facts .count-box {
   /* Ugly Padding */
-  padding: 0;
+  padding: auto;
   width: 100%;
+  height: 100%;
 }
 
 .facts .count-box i {
   display: block;
   /* Ugly Font Size */
-  font-size: 500px;
+  font-size: 100px;
   color: #149ddd;
   float: left;
 }
