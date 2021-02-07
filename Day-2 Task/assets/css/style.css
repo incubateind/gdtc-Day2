@@ -204,8 +204,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
+  text-align: center;
+  padding-top: 300px;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
+}
+.hero-container{
+  text-align: center;
+  justify-content: center;
 }
 
 #hero:before {
@@ -226,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 50 50 50 50;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
@@ -270,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   /* Ugly Padding */
-  padding: 0 0;
+  padding: 56px 0px;
   overflow: hidden;
 }
 
@@ -279,11 +285,12 @@ section {
 }
 
 .section-title {
-  /* Give Me Padding */
+  padding: 36px;
 }
 
 .section-title p{
-  /* Do something with me too */
+  padding 2px 0;
+  text-align:left;
   margin-bottom: 0;
 }
 
@@ -297,7 +304,7 @@ section {
 }
 
 .section-title h2::after {
-  content: '';
+  content: " ";
   position: absolute;
   display: block;
   width: 50px;
@@ -346,6 +353,7 @@ section {
 --------------------------------------------------------------*/
 .facts {
   padding-bottom: 30px;
+  padding-top: 60px;
 }
 
 .facts .count-box {
@@ -356,8 +364,8 @@ section {
 
 .facts .count-box i {
   display: block;
-  /* Ugly Font Size */
-  font-size: 500px;
+  font-size:30px;
+  font-size: 50px;
   color: #149ddd;
   float: left;
 }
@@ -396,6 +404,10 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
+#skills {
+  padding: 50px 0px;
+
+}
 .skills .progress {
   height: 50px;
   display: block;
@@ -592,6 +604,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+#services{
+  padding: 50px 0px;
+}
+
 .services .icon-box {
   margin-bottom: 20px;
 }
