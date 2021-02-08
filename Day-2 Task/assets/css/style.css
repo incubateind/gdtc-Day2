@@ -7,12 +7,23 @@
   top:40%;
   align-items:flex-end;
 }
-.about-line{
+/*.about-line{
   margin-top:30px;
-}
+}  */
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+}
+section .about-line{
+  padding: 60px 0;
+  overflow: hidden;
+}
+section .skills{
+  padding:  60px 0;
+  overflow: hidden;
+}
+.section-title {
+  padding-bottom: 30px;
 }
 
 a {
@@ -354,19 +365,19 @@ section {
 # Facts
 --------------------------------------------------------------*/
 .facts {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 .facts .count-box {
   /* Ugly Padding */
-  padding: 0;
+  padding: 30px;
   width: 100%;
 }
 
 .facts .count-box i {
   display: block;
   /* Ugly Font Size */
-  font-size: 500px;
+  font-size: 48px;
   color: #149ddd;
   float: left;
 }
@@ -659,6 +670,9 @@ section {
   box-sizing: content-box;
   text-align: center;
   min-height: 320px;
+}
+::before {
+  box-sizing: border-box;
 }
 
 .testimonials .testimonial-item .testimonial-img {
