@@ -270,7 +270,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   /* Ugly Padding */
-  padding: 0 0;
+  padding: 20px, 10px;
   overflow: hidden;
 }
 
@@ -279,11 +279,14 @@ section {
 }
 
 .section-title {
+  padding: 20px,10px;
+  
   /* Give Me Padding */
 }
 
 .section-title p{
   /* Do something with me too */
+  line-height: 2;
   margin-bottom: 0;
 }
 
@@ -324,7 +327,7 @@ section {
   list-style: none;
   padding: 0;
   /* REMOVE MY MARGIN */
-  margin-bottom: 0;
+  
 }
 
 .about .content ul li {
@@ -350,14 +353,15 @@ section {
 
 .facts .count-box {
   /* Ugly Padding */
-  padding: 0;
+  padding: 10px;
   width: 100%;
+  padding: auto;
 }
 
 .facts .count-box i {
   display: block;
   /* Ugly Font Size */
-  font-size: 500px;
+  font-size: 50px;
   color: #149ddd;
   float: left;
 }
@@ -502,7 +506,7 @@ section {
   list-style: none;
   text-align: center;
   background: #fff;
-  border-radius: 50px;
+  border-radius: 10px;
   padding: 2px 15px;
 }
 
