@@ -221,8 +221,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .hero-container {
   position: relative;
-  z-index: 2;
-  min-width: 300px;
+  top: 50%;   /*changed the position*/
+  left: 40%;  /*changed the position*/
 }
 
 #hero h1 {
@@ -276,10 +276,6 @@ section {
 
 .section-bg {
   background: #f5f8fd;
-}
-
-.section-title {
-  /* Give Me Padding */
 }
 
 .section-title p{
@@ -394,7 +390,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
